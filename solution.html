@@ -1,0 +1,7 @@
+```html
+<div class="flex">
+  <div class="w-1/2 bg-gray-200 flex-shrink-0"></div>
+  <div class="w-1/2 bg-gray-200 flex-shrink-0"></div>
+</div>
+```
+By adding `flex-shrink-0` to the divs, we prevent them from shrinking below their minimum size. This ensures that the columns maintain their equal width, even if the content of one column is longer than the other.  This fixes the layout issue.
